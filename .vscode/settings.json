@@ -1,0 +1,4 @@
+{
+  // Use environment variable for Qwen3‑Coder API key
+  "qwen3Coder.apiKey": "${env:QWEN3_API_KEY}"
+}
