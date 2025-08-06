@@ -80,4 +80,3 @@ aider --dev
 - Integrate additional sensors and create new WebSocket endpoints.
 - Use Qwen3‑Coder to refactor code or add features iteratively.
 
-Enjoy building with AI-powered development!

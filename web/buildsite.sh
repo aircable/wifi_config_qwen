@@ -1,7 +1,7 @@
-#!/usr/bin/env bash
-set -euo pipefail
+#!/bin/bash
+set -e
 
-echo "[buildsite] Installing/updating node modules in sksrc..."
+echo "[buildsite] Installing/updating node modules"
 npm install
 
 echo "[buildsite] Building SvelteKit static site..."
