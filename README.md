@@ -69,14 +69,17 @@ Leverage Qwen3‑Coder to extend the UI or firmware without leaving VS Code.
 - **Multi-device support**: _"Extend the WebSocket server to handle multiple clients and have Qwen update the ESP32 code."_
 
 ### Aider (Optional)
-You can also use **Aider** CLI with `.aider.conf.yml`:
+You can also use **Aider** CLI and your LLMs of choice:
+
 ```bash
-aider --dev
+aider
 ```
+Among other methods it can be configured with a `.aider.conf.yml`.
+
+See [Aider documentation](https://aider.chat/docs/) for instructions on installing and using Aider.
 
 ## Next Steps
 
 - Customize the UI theme with DaisyUI.
 - Integrate additional sensors and create new WebSocket endpoints.
 - Use Qwen3‑Coder to refactor code or add features iteratively.
-
