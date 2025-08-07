@@ -1,9 +1,0 @@
-version: 1
-project:
-  name: wifi_config_qwen_template
-  description: >-
-    ESP32 IDF Wi-Fi + LittleFS + WebSocket template with SvelteKit frontend
-    and Qwen3-Coder integration.
-plugins:
-  qwen3:
-    api_key: ${QWEN3_API_KEY}
